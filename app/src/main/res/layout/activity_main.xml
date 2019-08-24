@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:hint="number"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getotp"
+        android:onClick="sendSms"
+        android:text="get OTp"/>
+    <EditText
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/getotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/otp"
+        android:hint="otp"/>
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:onClick="Verify"
+        android:text="SIGN IN"/>
+</RelativeLayout>

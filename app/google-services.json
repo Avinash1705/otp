@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39921275216",
+    "firebase_url": "https://newotp-992fc.firebaseio.com",
+    "project_id": "newotp-992fc",
+    "storage_bucket": "newotp-992fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39921275216:android:3a8536d7552d2305",
+        "android_client_info": {
+          "package_name": "com.example.newotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39921275216-07rn08bq3mlvie92gb99pfiokh2nqjfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newotp",
+            "certificate_hash": "fc617dc1b22130bbd4bcbb1043492700cc1f002f"
+          }
+        },
+        {
+          "client_id": "39921275216-lgs9o85i3rtrbl7pku46it6dpk0jss6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmlIVhV-b5NM8hahixhlStOK0vAQku3bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39921275216-lgs9o85i3rtrbl7pku46it6dpk0jss6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
