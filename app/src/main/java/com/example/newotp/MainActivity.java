@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
          getotp=findViewById(R.id.getotp);sign=findViewById(R.id.signin);
     }
     public void sendSms(View view){
-        mnumber=number.getText().toString();
+        mnumber="+91"+number.getText().toString();
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
                 mnumber,        // Phone number to verify
                 60,                 // Timeout duration
